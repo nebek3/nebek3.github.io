@@ -4,7 +4,14 @@ header, footer {
     padding: 8px;
     border-radius: 15px;
 }
-main h4 {
+header h1 {
+    font-family: 'Special Elite', cursive;
+}
+.grid-item h4 {
     border-bottom: 1px solid black;
     font-family: 'Special Elite', cursive;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
 }
