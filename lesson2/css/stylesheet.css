@@ -3,3 +3,8 @@ header, footer {
     color: white;
     padding: 8px;
     border-radius: 15px;
+}
+main h4 {
+    border-bottom: 1px solid black;
+    font-family: 'Special Elite', cursive;
+}
