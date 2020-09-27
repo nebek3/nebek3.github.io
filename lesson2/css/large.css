@@ -1,3 +1,19 @@
 @media (min-width: 60em) {
-    
+    header, footer {
+        background-color: red;
+        color: white;
+        padding: 8px;
+        border-radius: 15px;
+    }
+    header h1 {
+        font-family: 'Special Elite', cursive;
+    }
+    .grid-item h4 {
+        border-bottom: 1px solid black;
+        font-family: 'Special Elite', cursive;
+    }
+    .grid-container {
+        display: grid;
+        grid-gap: 80px;
+    }
 }
