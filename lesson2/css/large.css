@@ -7,10 +7,12 @@
     }
     header h1 {
         font-family: 'Special Elite', cursive;
+        text-align: center;
     }
     .grid-item h4 {
         border-bottom: 1px solid black;
         font-family: 'Special Elite', cursive;
+        text-align: center;
     }
     .grid-container {
         display: grid;
