@@ -6,19 +6,18 @@ html {
 
 body {
     font-size: 16px;
-    font-family: 'Tinos', serif, sans-serif;
-
+    font-family: 'Special Elite', cursive;
 }
 
 header {
     margin: 0;
     background-color: rgb(255, 255, 255);
     display: flex;
-    color: #991632;
+    color: #900C3F;
 }
 
 nav {
-    background-color: #F5B34C;
+    background-color: #C70039;
     padding: 1em;
 
 }
@@ -35,24 +34,20 @@ nav ul li {
     text-align: center;
 }
 
-
-
 nav ul li a {
     color: black;
     font-size: 1rem;
-
 }
 
 nav ul li a:hover {
     color: #333;
-    background-color: #84CFF2;
+    background-color: #FF5733;
     padding: 1em;
 }
 
 nav ul li.active a {
     color: #000;
     padding: 1em;
-
 }
 
 main {
@@ -61,23 +56,23 @@ main {
 }
 
 footer {
-    background-color: #F5B34C;
+    background-color: #C70039;
     color: black;
     padding: .2em;
     text-align: center;
 }
 
 h1 {
-    color: #991632;
+    color: #900C3F;
 }
 
 .tagline {
-    color: #991632;
+    color: #900C3F;
     margin-left: 6em;
 }
 
 .weathername {
-    color: #991632;
+    color: #900C3F;
     margin-left: 6em;
 }
 
