@@ -84,6 +84,18 @@ header {
     max-width: 20%;
     height: 3em;
 }
+.color1 {
+    background-color: #900C3F;
+}
+
+.color2 {
+    background-color: #C70039;
+}
+
+.color3 {
+    background-color: #FF5733;
+}
+
 
 
 @media only screen and (max-width: 350px) {
