@@ -19,7 +19,6 @@ header {
 nav {
     background-color: #C70039;
     padding: 1em;
-
 }
 
 nav ul {
@@ -64,16 +63,6 @@ footer {
 
 h1 {
     color: #900C3F;
-}
-
-.tagline {
-    color: #900C3F;
-    margin-left: 6em;
-}
-
-.weathername {
-    color: #900C3F;
-    margin-left: 6em;
 }
 
 header {
