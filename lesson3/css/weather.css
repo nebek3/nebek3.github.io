@@ -13,11 +13,11 @@ header {
     margin: 0;
     background-color: rgb(255, 255, 255);
     display: flex;
-    color: #900C3F;
+    color:skyblue;
 }
 
 nav {
-    background-color: #C70039;
+    background-color:lawngreen;
     padding: 1em;
 }
 
@@ -40,7 +40,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #333;
-    background-color: #FF5733;
+    background-color:lightslategray;
     padding: 1em;
 }
 
@@ -55,14 +55,14 @@ main {
 }
 
 footer {
-    background-color: #C70039;
+    background-color:lawngreen;
     color: black;
     padding: .2em;
     text-align: center;
 }
 
 h1 {
-    color: #900C3F;
+    color: skyblue;
 }
 
 header {
@@ -85,15 +85,15 @@ header {
     height: 3em;
 }
 .color1 {
-    background-color: #900C3F;
+    background-color: skyblue; /*900C3F*/
 }
 
 .color2 {
-    background-color: #C70039;
+    background-color: lawngreen; /*C70039*/
 }
 
 .color3 {
-    background-color: #FF5733;
+    background-color: lightslategray; /*FF5733*/
 }
 
 
