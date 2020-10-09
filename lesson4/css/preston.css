@@ -1,8 +1,49 @@
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: skyblue;
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.menu li:first-child {
+    display: block;
+}
+
+.menu li {
+    display:  ;
+}
+
+.menu a {
+    display: block;
+    color: ;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu a :hover {
+    color: lawngreen;
+    background-color: skyblue;
+    font-weight: 700;
+}
 
 
+@media only screen and (min-width: 32.5em){
+    .menu {
+        display: flex;
+    }
 
+    .menu li:first-child {
 
+    }
 
-@media only screen and (min-width: 850px){
-
+    .menu li {
+        display: block;
+        flex: 1 1 100%;
+    }
 }
