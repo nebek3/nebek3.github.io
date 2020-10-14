@@ -6,6 +6,12 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
+div#banner { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    background-color: #DDEEEE; 
+    width: 100%;
 header, footer {
     background-color: red;
     color: white;
