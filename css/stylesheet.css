@@ -6,11 +6,11 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
-div#banner { 
-    position: absolute; 
+div#banner {
+    position: absolute;
+    color: lawngreen 
     top: 0; 
-    left: 0; 
-    background-color: pink; 
+    left: 0;  
     width: 100%;}
 header, footer {
     background-color: red;
