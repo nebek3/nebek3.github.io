@@ -6,13 +6,18 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
-div#banner {
+#banner {
     position: absolute;
-    color: lawngreen 
+    color: lawngreen; 
     top: 0; 
     left: 0;  
-    width: 100%;}
+    width: 100%;
+}
+#banner p {
+    color: lawngreen;
+    text-align: center;
 
+}
 header, footer {
     background-color: red;
     color: white;
