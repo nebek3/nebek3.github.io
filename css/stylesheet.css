@@ -10,7 +10,7 @@ div#banner {
     position: absolute; 
     top: 0; 
     left: 0; 
-    background-color: #DDEEEE; 
+    background-color: pink; 
     width: 100%;}
 header, footer {
     background-color: red;
