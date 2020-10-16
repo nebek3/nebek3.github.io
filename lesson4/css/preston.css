@@ -1,7 +1,21 @@
-nav {
+html {
+    display: block;
+    max-width: 960px;
     margin: 0 auto;
-    max-width: 760px;
-    background-color: skyblue;
+}
+body {
+    font-size: 16px;
+    font-family: 'Special Elite', cursive;
+}
+header {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    color:skyblue;
+}
+nav {
+    background-color:lawngreen;
+    padding: 1em;
 }
 
 nav button {
@@ -11,23 +25,19 @@ nav button {
     font-size: 1.6rem;
     color: slategray;
 }
-
 .menu {
     list-style: none;
     text-align: center;
     padding: 0;
-    background-color: skyblue;
+    background-color: lawngreen;
 }
-
 .menu li:first-child {
     display: block;
 }
-
 .menu li {
     display: none;
     flex: 1 1 100%;
 }
-
 .menu a {
     display: block;
     color: black;
@@ -36,54 +46,12 @@ nav button {
     text-decoration: none;
     border-top: 1px solid rgba(0,0,0,0.3);
 }
-
 .menu a:hover {
     color: lawngreen;
-    background-color: rgba(0,0,0,0.4);
+    background-color: slategray;
     font-weight: 700;
 }
-
 .menu .active a {
-    background-color: rgba(0,0,0,0.2);
-    color: white;
-}
-
-/*.responsive li {
-    display: block;
-}*/
-
-
-@media only screen and (min-width: 32.5em){
-    nav button {
-        display: none;
-    }
-
-    .menu {
-        display: flex;
-        margin-left: auto;
-    }
-
-    .menu a {
-        border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
-        padding: .8rem 1rem;
-    }
-
-    .menu li:first-child {
-
-    }
-
-    .menu li {
-        display: block;
-        flex: 1 1 100%;
-    }
-}
-
-
-
-@media only screen and (min-width: 64em){
-    .menu li a {
-        padding: .6rem 1rem;
-    }
-
+    background-color: slategray;
+    color: skyblue;
 }
