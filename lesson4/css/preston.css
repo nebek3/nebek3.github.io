@@ -55,3 +55,43 @@ nav button {
     background-color: slategray;
     color: skyblue;
 }
+
+/*.responsive li {
+    display: block;
+}*/
+
+
+@media only screen and (min-width: 32.5em){
+    nav button {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .menu a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .8rem 1rem;
+    }
+
+    .menu li:first-child {
+
+    }
+
+    .menu li {
+        display: block;
+        flex: 1 1 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 64em){
+    .menu li a {
+        padding: .6rem 1rem;
+    }
+
+}
