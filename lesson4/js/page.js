@@ -9,5 +9,5 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 });*/
 
 function toggleMenu(){
-    document.getElementsByClassName("menu")[0].classList.toggle("responsive")
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive")
 }
