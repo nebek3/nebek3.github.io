@@ -13,9 +13,11 @@ header {
     display: flex;
     color:skyblue;
 }
+
 nav {
-    background-color:lawngreen;
-    padding: 1em;
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: skyblue;
 }
 
 nav button {
@@ -25,19 +27,23 @@ nav button {
     font-size: 1.6rem;
     color: slategray;
 }
+
 .menu {
     list-style: none;
     text-align: center;
     padding: 0;
-    background-color: lawngreen;
+    background-color: skyblue;
 }
+
 .menu li:first-child {
     display: block;
 }
+
 .menu li {
     display: none;
     flex: 1 1 100%;
 }
+
 .menu a {
     display: block;
     color: black;
@@ -46,14 +52,16 @@ nav button {
     text-decoration: none;
     border-top: 1px solid rgba(0,0,0,0.3);
 }
+
 .menu a:hover {
     color: lawngreen;
-    background-color: slategray;
+    background-color: rgba(0,0,0,0.4);
     font-weight: 700;
 }
+
 .menu .active a {
-    background-color: slategray;
-    color: skyblue;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
 }
 
 /*.responsive li {
