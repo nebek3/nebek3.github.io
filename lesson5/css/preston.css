@@ -102,6 +102,8 @@ p {
 .hero img {
     margin: 10px auto;
     width: 100%;
+    padding: 0;
+    border-radius: 10px;
 }
   
 .weatherSummary {
@@ -126,6 +128,12 @@ p {
     display: none;
 }
 
+.article img {
+    width: 250px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
 
 
 
@@ -166,3 +174,9 @@ p {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
+
+/*
+Hero image is shifted down and right... I want it to take the whole heroDiv area
+Five Day forcast images are too big! Should the 1fr for each column change with screen size?
+
+*/
