@@ -173,6 +173,9 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
+    .forecast img {
+        width:50px;
+    }
 }
 
 /*
