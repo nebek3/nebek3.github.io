@@ -1,6 +1,5 @@
 html {
     display: block;
-    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -11,6 +10,8 @@ body {
 
 header {
     display: flex;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 nav button {
@@ -21,6 +22,7 @@ nav button {
 
 nav {
     background-color: lawngreen;
+    width: 100%;
 }
 
 nav ul {
@@ -55,6 +57,8 @@ nav ul li.active a {
 main {
     padding: 0 2%;
     min-height: 10rem;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 main div {
@@ -68,6 +72,8 @@ footer {
     color: black;
     padding: .2em;
     text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 main h1 {
